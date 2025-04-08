@@ -1,9 +1,12 @@
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/lib/components/ui/badge";
 import Link from "next/link";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/lib/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import { Card } from "@/components/ui/card";
+import { Card } from "@/lib/components/ui/card";
+import OpenImage from "../images/open.jpg";
+import AndroidImage from "../images/android.jpg";
+import TenjikaiImage from "../images/tenjikai.jpg";
 
 export default function NewsSeciton() {
   return (
@@ -19,12 +22,7 @@ export default function NewsSeciton() {
         <div className="grid grid-cols-3 gap-6 mx-8">
           <Card className="p-6 duration-300 hover:shadow-none hover:translate-2 relative">
             <div className="relative aspect-video rounded-lg overflow-hidden h-[180px]">
-              <Image
-                src={"/open.jpg"}
-                alt="news"
-                fill
-                className="object-cover"
-              />
+              <Image src={OpenImage} alt="news" fill className="object-cover" />
             </div>
             <Badge className="bg-primary text-primary-foreground rounded-full mb-3 px-3 tracking-widest">
               プレスリリース
@@ -45,7 +43,7 @@ export default function NewsSeciton() {
           <Card className="p-6 duration-300 hover:shadow-none hover:translate-2 relative">
             <div className="relative aspect-video rounded-lg overflow-hidden h-[180px]">
               <Image
-                src={"/android.jpg"}
+                src={AndroidImage}
                 alt="android"
                 fill
                 className="object-cover"
@@ -70,7 +68,7 @@ export default function NewsSeciton() {
           <Card className="p-6 duration-300 hover:shadow-none hover:translate-2 relative">
             <div className="relative aspect-video rounded-lg overflow-hidden h-[180px]">
               <Image
-                src={"/tenjikai.jpg"}
+                src={TenjikaiImage}
                 alt="tenjikai"
                 fill
                 className="object-cover"

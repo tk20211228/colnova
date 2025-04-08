@@ -1,5 +1,7 @@
+import { Button } from "@/lib/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import { Button } from "./ui/button";
+import CareersImage from "../images/careers.jpg";
+
 import Image from "next/image";
 
 export default function CareersSection() {
@@ -24,7 +26,7 @@ export default function CareersSection() {
             </Button>
           </div>
           <Image
-            src={"/careers.jpg"}
+            src={CareersImage}
             height={520}
             alt="monitors"
             className="aspect-3/2 rounded-lg shadow-2xl"

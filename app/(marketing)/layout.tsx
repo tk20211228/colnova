@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import Header from "./header";
 import Image from "next/image";
-import Hero from "@/public/hero.jpg";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import Hero from "./images/hero.jpg";
+import { ScrollArea } from "@/lib/components/ui/scroll-area";
 import Footer from "./footer";
-import { AppConfig } from "./app.config";
+import { AppConfig } from "@/app.config";
 import { getBaseURL } from "@/lib/base-url";
 
 const geistSans = Geist({

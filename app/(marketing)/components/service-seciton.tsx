@@ -1,7 +1,9 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/lib/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
-import monitors from "/public/monitors.png";
+import MonitorsImage from "../images/monitors.png";
+import BusinessManImage from "../images/business-man.png";
+import MaintenanceImage from "../images/maintenance.jpg";
 
 export default function ServiceSeciton() {
   return (
@@ -16,7 +18,7 @@ export default function ServiceSeciton() {
         </div>
         <div className="flex mb-24">
           <Image
-            src={monitors}
+            src={MonitorsImage}
             height={520}
             alt="monitors"
             className="aspect-3/2 rounded-lg shadow-2xl"
@@ -55,7 +57,7 @@ export default function ServiceSeciton() {
             </Button>
           </div>
           <Image
-            src={"/business-man.png"}
+            src={BusinessManImage}
             height={520}
             alt="monitors"
             className="aspect-3/2 rounded-lg shadow-2xl"
@@ -63,7 +65,7 @@ export default function ServiceSeciton() {
         </div>
         <div className="flex mb-24">
           <Image
-            src={"/maintenance.jpg"}
+            src={MaintenanceImage}
             height={520}
             alt="monitors"
             className="aspect-3/2 rounded-lg shadow-2xl"
