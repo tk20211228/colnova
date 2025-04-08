@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="sticky top-0 flex items-center justify-between tracking-widest p-12 bg-gradient-to-b from-foreground/50 to-transparent text-primary-foreground">
+    <header className="sticky top-0 flex items-center justify-between tracking-widest p-12 bg-gradient-to-b from-foreground/50 to-transparent text-primary-foreground opacity-0 animate-fadeInDownDelay5">
       <Button
         variant="ghost"
         className="hover:bg-transparent hover:text-primary-foreground group"
