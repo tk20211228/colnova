@@ -1,7 +1,7 @@
 import { ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import Careers from "@/public/careers.jpg";
+import Careers from "/public/careers.jpg";
 
 export default function CareersSection() {
   return (

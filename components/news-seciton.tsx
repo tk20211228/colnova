@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import openNews from "@/public/open.jpg";
-import Android from "@/public/android.jpg";
-import Tenjikai from "@/public/tenjikai.jpg";
+import openNews from "/public/open.jpg";
+import Android from "/public/android.jpg";
+import Tenjikai from "/public/tenjikai.jpg";
 import { Card } from "@/components/ui/card";
 
 export default function NewsSeciton() {

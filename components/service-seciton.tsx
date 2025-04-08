@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
-import monitors from "@/public/monitors.png";
-import businessMan from "@/public/business-man.png";
-import maintenance from "@/public/maintenance.jpg";
+import monitors from "/public/monitors.png";
+import businessMan from "/public/business-man.png";
+import maintenance from "/public/maintenance.jpg";
 
 export default function ServiceSeciton() {
   return (
