@@ -3,9 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
-import openNews from "/public/open.jpg";
-import Android from "/public/android.jpg";
-import Tenjikai from "/public/tenjikai.jpg";
 import { Card } from "@/components/ui/card";
 
 export default function NewsSeciton() {
@@ -22,7 +19,12 @@ export default function NewsSeciton() {
         <div className="grid grid-cols-3 gap-6 mx-8">
           <Card className="p-6 duration-300 hover:shadow-none hover:translate-2 relative">
             <div className="relative aspect-video rounded-lg overflow-hidden h-[180px]">
-              <Image src={openNews} alt="news" fill className="object-cover" />
+              <Image
+                src={"/open.jpg"}
+                alt="news"
+                fill
+                className="object-cover"
+              />
             </div>
             <Badge className="bg-primary text-primary-foreground rounded-full mb-3 px-3 tracking-widest">
               プレスリリース
@@ -43,7 +45,7 @@ export default function NewsSeciton() {
           <Card className="p-6 duration-300 hover:shadow-none hover:translate-2 relative">
             <div className="relative aspect-video rounded-lg overflow-hidden h-[180px]">
               <Image
-                src={Android}
+                src={"/android.jpg"}
                 alt="android"
                 fill
                 className="object-cover"
@@ -68,7 +70,7 @@ export default function NewsSeciton() {
           <Card className="p-6 duration-300 hover:shadow-none hover:translate-2 relative">
             <div className="relative aspect-video rounded-lg overflow-hidden h-[180px]">
               <Image
-                src={Tenjikai}
+                src={"/tenjikai.jpg"}
                 alt="tenjikai"
                 fill
                 className="object-cover"
