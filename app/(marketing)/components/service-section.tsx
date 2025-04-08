@@ -5,7 +5,7 @@ import MonitorsImage from "../images/monitors.png";
 import BusinessManImage from "../images/business-man.png";
 import MaintenanceImage from "../images/maintenance.jpg";
 
-export default function ServiceSeciton() {
+export default function ServiceSection() {
   return (
     <div className="bg-background">
       <div className="container mx-auto px-12 py-48">

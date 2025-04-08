@@ -1,9 +1,9 @@
 import HeroSection from "@/app/(marketing)/components/hero-section";
 import InquirySection from "@/app/(marketing)/components/inquiry-section";
-import ServiceSeciton from "@/app/(marketing)/components/service-seciton";
+import ServiceSection from "@/app/(marketing)/components/service-section";
 import WhatWeDoSection from "@/app/(marketing)/components/what-we-do-section";
 
-import NewsSeciton from "@/app/(marketing)/components/news-seciton";
+import NewsSection from "@/app/(marketing)/components/news-section";
 import CareersSection from "@/app/(marketing)/components/careers-section";
 
 export default function Home() {
@@ -11,9 +11,9 @@ export default function Home() {
     <main>
       <HeroSection />
       <WhatWeDoSection />
-      <ServiceSeciton />
+      <ServiceSection />
       <InquirySection />
-      <NewsSeciton />
+      <NewsSection />
       <CareersSection />
     </main>
   );

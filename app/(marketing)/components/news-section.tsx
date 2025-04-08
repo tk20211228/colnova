@@ -5,10 +5,10 @@ import { Button } from "@/lib/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import { Card } from "@/lib/components/ui/card";
 import OpenImage from "../images/open.jpg";
-import AndroidImage from "../images/android.jpg";
-import TenjikaiImage from "../images/tenjikai.jpg";
+import AndroidAppImage from "../images/android-app.jpg";
+import ExhibitionImage from "../images/exhibition.jpg";
 
-export default function NewsSeciton() {
+export default function NewsSection() {
   return (
     <div className="bg-background">
       <div className="container mx-auto px-12 py-48 ">
@@ -43,7 +43,7 @@ export default function NewsSeciton() {
           <Card className="p-6 duration-300 hover:shadow-none hover:translate-2 relative">
             <div className="relative aspect-video rounded-lg overflow-hidden h-[180px]">
               <Image
-                src={AndroidImage}
+                src={AndroidAppImage}
                 alt="android"
                 fill
                 className="object-cover"
@@ -68,8 +68,8 @@ export default function NewsSeciton() {
           <Card className="p-6 duration-300 hover:shadow-none hover:translate-2 relative">
             <div className="relative aspect-video rounded-lg overflow-hidden h-[180px]">
               <Image
-                src={TenjikaiImage}
-                alt="tenjikai"
+                src={ExhibitionImage}
+                alt="Exhibition"
                 fill
                 className="object-cover"
               />
