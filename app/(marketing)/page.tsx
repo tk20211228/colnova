@@ -8,13 +8,13 @@ import CareersSection from "@/app/(marketing)/components/careers-section";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <HeroSection />
       <WhatWeDoSection />
       <ServiceSection />
       <InquirySection />
       <NewsSection />
-      <CareersSection />
-    </main>
+      {/* <CareersSection /> */}
+    </>
   );
 }

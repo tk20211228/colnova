@@ -11,7 +11,7 @@ import ExhibitionImage from "../images/exhibition.jpg";
 export default function NewsSection() {
   return (
     <div className="bg-background">
-      <div className="container mx-auto px-12 py-48 ">
+      <div className="container mx-auto py-48 ">
         <div className="flex items-end justify-between mb-12">
           <h2 className="text-[64px] font-bold">NEWS</h2>
           <Button variant="ghost" className="group">
@@ -19,7 +19,7 @@ export default function NewsSection() {
             <ChevronRight className="size-4 group-hover:translate-x-1 duration-300" />
           </Button>
         </div>
-        <div className="grid grid-cols-3 gap-6 mx-8">
+        <div className="grid grid-cols-3 gap-6">
           <Card className="p-6 duration-300 hover:shadow-none hover:translate-2 relative">
             <div className="relative aspect-video rounded-lg overflow-hidden h-[180px]">
               <Image src={OpenImage} alt="news" fill className="object-cover" />

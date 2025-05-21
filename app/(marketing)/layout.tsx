@@ -40,18 +40,20 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
         suppressHydrationWarning
       >
-        <div className="h-svh w-full absolute top-0 -z-10">
+        <div className="fixed inset-0 -z-10">
           <Image
             src={Hero}
             alt="hero"
-            className="size-full object-cover grayscale-20 scale-x-[-1]"
+            priority
+            quality={85}
+            fill
+            sizes="100vw"
+            className="object-cover grayscale-20 scale-x-[-1]"
           />
         </div>
-        <ScrollArea className="h-dvh w-full">
-          <Header />
-          {children}
-          <Footer />
-        </ScrollArea>
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
