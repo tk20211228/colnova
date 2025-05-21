@@ -47,7 +47,7 @@ export default function ServiceSection() {
           </Button>
         </div>
 
-        {services.map((service, index) => (
+        {services.map((service) => (
           <div
             key={service.title}
             className="flex mb-24 flex-col md:flex-row gap-12"

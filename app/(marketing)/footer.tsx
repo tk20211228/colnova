@@ -1,5 +1,5 @@
 import { Button } from "@/lib/components/ui/button";
-import { Card, CardContent, CardHeader } from "@/lib/components/ui/card";
+import { Card } from "@/lib/components/ui/card";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { AppConfig } from "@/app.config";
